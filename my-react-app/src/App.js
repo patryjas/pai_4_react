@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  const subject = "Natalia";
+function App(props) {
+  const subject = props.subject;
   return (
     <div className="App">
        <header className="App-header">
